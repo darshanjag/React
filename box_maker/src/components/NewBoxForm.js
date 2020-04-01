@@ -31,6 +31,7 @@ class NewBoxForm extends Component {
     }
     render() { 
 
+        
         return ( <form
         onSubmit={this.handleSubmit}>
             <label
