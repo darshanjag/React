@@ -30,8 +30,7 @@ class Todo extends Component{
    }
    handleKeyPress(e){
     if (e.key ==="Enter") {
-        console.log('pressed')
-        this.props.addTask({...this.state.task, id: this.props.id})
+        this.props.updateTask(this.state.task,this.props.id)
         this.setState({
             isEdditing: false
         })
