@@ -34,25 +34,26 @@ class NewBoxForm extends Component {
         return ( <form
         onSubmit={this.handleSubmit}>
             <label
-            htmlFor='height'>height</label>
+            htmlFor='height'>height:</label>
             <input 
             name="height"
             id="height"
             onChange={this.handleChange}
             value={this.state.height}></input>
+            <br />
 
             <label
-            htmlFor='width'>width</label>
+            htmlFor='width'>width:</label>
             <input
             name="width"
             id="width"
             onChange={this.handleChange}
             value={this.state.width}>
             </input>
-
+            <br />
 
             <label
-            htmlFor='color'>color</label>
+            htmlFor='color'>color:</label>
             <input
             name="color"
             id="color"
